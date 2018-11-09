@@ -1,0 +1,29 @@
+.usluge{
+    background-color: $color-yellow;
+    height: 95vh;
+    color:black;
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+
+    h1{
+       font-size: calc(14px + (65 - 14) * ((100vw - 300px) / (1600 - 300)));
+    }
+
+    .imageSlide{
+        margin: 0 auto;
+        height: 500px;   
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        &-1{
+            background-image: url(../assets/img/usluge.jpeg);
+        }
+        &-2{
+            background-image: url(../assets/img/usluge2.jpg);
+        }
+        &-3{
+            background-image: url(../assets/img/usluge3.jpg);
+        }
+    }
+}

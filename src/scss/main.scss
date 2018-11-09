@@ -1,25 +1,14 @@
-// * {
-//     margin: 0;
-//     padding: 0;
-// }
-
-// *,
-// *::before,
-// *::after {
-//     box-sizing: inherit;
-// }
-
-// html {
-//     box-sizing: border-box;
-//     font-size: 62.5%;
-// }
-
-
-
+@import "../../node_modules/bootstrap/scss/bootstrap";
 @import 'variables';
-@import 'topheader';
-@import 'header';
+@import 'overrideBootstrap';
+@import 'basics';
 @import 'navbar';
+@import 'heroHeader';
+@import 'radnoVreme';
+@import 'zaposleni';
+@import 'usluge';
+@import 'kontakt';
+@import 'footer';
 
 
 

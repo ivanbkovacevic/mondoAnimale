@@ -1,0 +1,23 @@
+.footer{
+    ul{
+       background-color: yellowgreen;
+       height: 60px;
+    }
+    li{
+      display: inline-block;
+      background-color: darkcyan;
+      width: 200px;
+      height: 100%;
+      text-align: center;
+    }
+    a{
+        display: inline-block;
+        text-decoration: none;
+        color:white;
+        height: 100%;
+        width: 100%;
+       text-align: center;
+        font-size: 1.5rem;
+        padding-top: 10%;
+    }
+}
