@@ -4,12 +4,13 @@
         <title>MondoAnimale</title>
         <meta http-equiv="x-ua-compatible" content="ie=edge">
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-       
+   
+      <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:300,400,700" rel="stylesheet">
       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
         <link rel="stylesheet" href="/css/bootstrap.css">
         <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
     </head>
 <body><!--start  NAVBAR ######################################-->
       <nav class="navbar navbar-expand-sm fixed-top ">
@@ -57,32 +58,43 @@
 
 <!-- start  heroHeader  ######################################-->
         <section id="heroHeader" class="heroHeader">
-            <h1>MONDO ANIMALE</h1> 
+            <h1 id="tiha" class="">MONDssssO ANIMALE</h1> 
             <h2>DOBRO DOSLI</h2>
+            <div class="heroText">
+              <p>Ambualtna najblolja</p>
+              <p>Volimo yivotinja</p>
+              <p>Lecimo ih</p>
+            </div>
             <div class="logo"></div>
         </section>
 <!-- end  heroHeader  ######################################-->
 
 <!-- start  radnoVreme  ######################################-->
          <section id="radnoVreme" class="radnoVreme">
-           <h1>RADNO VREME</h1>
-         <div class="row px-5">
+         
+         <div  class="row no-gutters">
             <div class="col-lg-6">
-              <div class="header">PONEDLJAK - PETAK</div>
-              <div class="colBody">Od 08:00h do 20:00h</div>
-            </div>
+                <div class="colBody">
+                    <div class="header">RADNO VREME</div>
+                    <p>PONEDLJAK - PETAK</p>
+                    <p>Od 08:00h do 20:00h</p>
+                    <p id="burek" class="">VIKENDOM</p>
+                    <p data-scroll class="pulse infinite">Od 10:00h do 14:00h</p>
+                </div>
+               
+            </div>    
+             
             <div class="col-lg-6">
-                <div class="header">VIKENDOM</div>
-              <div class="colBody">Od 08:00h do 14:00h</div>
+                <div class="imageCont"></div>
             </div>
-         </div>
+          </div>     
         </section>
 <!-- end  radnoVreme  ######################################-->
 
 <!-- start  zaposleni  ######################################-->
-        <section  id="zaposleni" class="zaposleni">
-            <h1>ZAPOSLENI</h1> 
-            <div class="row">
+        <section  id="zaposleni" class="zaposleni" >
+            <h1  data-scroll >ZAPOSLENI</h1> 
+            <div  class="row" data-scroll>
               <div class="col-lg-3 bg-primary d-flex justify-content-center">
                   <div class="card" style="width: 24rem;">
                       <div class="card-img-top card-img-top-1" ></div>
@@ -128,8 +140,8 @@
 <!-- end  zaposleni  ######################################-->
 
 <!-- start  usluge  ######################################-->
-        <section  id="usluge" class="usluge">
-            <h1>USLUGE</h1> 
+        <section  id="usluge" class="usluge" data-scroll>
+            <h1  data-scroll class="pulse infinite">USLUGE</h1> 
             <div id="carouselExampleIndicators" class="carousel slide" data-interval="1500" data-ride="carousel">
                 <ol class="carousel-indicators">
                   <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -160,30 +172,33 @@
 <!-- end  usluge  ######################################-->
 
 <!-- start  kontakt  ######################################-->
-        <section  id="kontakt" class="kontakt">
-            <h1>KONTAKT</h1> 
-            <div class="image"></div>
-            <div class="row">
-              <div class="col-lg-3 bg-primary">
-                  <i class="iconice far fa-envelope-open"></i>
-                  <p>mondoanimale@gmail.com</p>
-              </div>
-              <div class="col-lg-3 bg-warning">
-                  <i class="iconice fas fa-phone"></i>
-                  <p>+381 64 555-555</p>
+<div>
+  
+  <section  id="kontakt" class="kontakt" >
+      <h1  >KONTAKT</h1> 
+      <div   class="image"></div>
+      <div  class="row" >
+        <div class="col-lg-3 bg-primary">
+            <i class="iconice far fa-envelope-open"></i>
+            <p>mondoanimale@gmail.com</p>
+        </div>
+        <div class="col-lg-3 bg-warning">
+            <i class="iconice fas fa-phone"></i>
+            <p>+381 64 555-555</p>
 
-              </div>
-              <div class="col-lg-3 bg-primary">
-                  <i class="iconice fab fa-facebook"></i>
-                  <p>facebook-mondoanimale</p>
-              </div>
-              <div class="col-lg-3 bg-warning">
-                  <i class="iconice fas fa-home"></i>
-                  <p>Oslobodjenja 100</p>
-              </div>
-            </div>
-           
-        </section>
+        </div>
+        <div  class="jello col-lg-3 bg-primary">
+            <i class="iconice fab fa-facebook"></i>
+            <p>facebook-mondoanimale</p>
+        </div>
+        <div data-scroll class="col-lg-3 bg-warning">
+            <i class="iconice fas fa-home"></i>
+            <p>Oslobodjenja 100</p>
+        </div>
+      </div>
+     
+  </section>
+</div>
 <!-- end  kontakt  ######################################-->
 
 <!-- start  footer  ######################################-->
@@ -193,13 +208,27 @@
      <li><a href="#">Zaposleni</a></li>
      <li><a href="#">Usluge</a></li>
      <li><a href="#">Radno vreme</a></li>
-     <li><a href="#">Kontakt</a></li>
+     <li><a href="#">Kontkt</a></li>
    </ul>
 </footer>
 <!-- end  footer  ######################################-->
-
+    
         <script src="/js/jquery.min.js"></script>
         <script src="/js/popper.min.js"></script>
         <script src="/js/bootstrap.min.js"></script>
+        <script src="/js/animated.js"></script>
+        <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
+        <script>
+          
+  //  ScrollOut({
+  //       threshold: .5,
+  //       once:true,
+      
+  //       onShown(el) {
+  //   el.classList.add("animated");
+  // }
+  //   });
+          </script>
+          
     </body>
 </html>

@@ -1,12 +1,27 @@
 .zaposleni{
+    [data-scroll]{
+        transition: all 1.7s;
+    }
+
+    [data-scroll="in"]{
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    [data-scroll="out"]{
+        opacity: 0;
+        transform: translateX(-500px);
+    }
+
     background-color: $color-green;
     height: 95vh;
-    color:white;
+    color:rgb(128, 53, 53);
     width: 100%;
     text-align: center;
     padding-top: 100px;
     h1{
         font-size: calc(14px + (65 - 14) * ((100vw - 300px) / (1600 - 300)));
+        color:rgb(128, 53, 53);
      }
 
     .row{
@@ -41,5 +56,21 @@
             background-repeat: no-repeat;
             background-size: cover;
         }
+    }
+}
+
+section:nth-of-type(4){
+    [data-scroll]{
+        transition: all 1.7s;
+    }
+
+    [data-scroll="in"]{
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    [data-scroll="out"]{
+        opacity: 0;
+        transform: translateX(-500px);
     }
 }

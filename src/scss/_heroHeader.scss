@@ -1,4 +1,5 @@
 .heroHeader{
+    position: relative;
     background-color: $color-blue;
     height: 95vh;
     color:white;
@@ -13,13 +14,24 @@
     h1{
         font-size: calc(14px + (85 - 14) * ((100vw - 300px) / (1600 - 300)));
     }
-   .logo{
-       margin: 0 auto;
-       height: 50%;
-       background-image: url(../assets/img/171048_161808003869981_1290097_o.jpg);
-       background-position: center;
-       background-repeat: no-repeat;
-       background-size: contain;
+    .heroText{
+        position: absolute;
+        color:white;
+        top: 30%;
+        left:10%;
+        text-align: left;
+        border: 1px solid white;
+        font-size: 4rem;
+        padding: 20px;
+        text-transform: uppercase;
+    }
+//    .logo{
+//        margin: 0 auto;
+//        height: 50%;
+//        background-image: url(../assets/img/171048_161808003869981_1290097_o.jpg);
+//        background-position: center;
+//        background-repeat: no-repeat;
+//        background-size: contain;
        
-   }
+//    }
 }
