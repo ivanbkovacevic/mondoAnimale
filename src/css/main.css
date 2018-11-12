@@ -6398,23 +6398,21 @@ body {
     background-color: #309de6; }
 
 .topBar {
-  background-color: #b89f9f;
-  border: 1px solid blue;
+  background-color: white;
   height: 110px; }
   .topBar .logo {
     background-color: #bbb0b0;
-    border: 1px solid red;
     height: 100%; }
   .topBar .contactsContainer {
-    background-color: #f7c7c7;
-    border: 1px solid yellow;
+    background-color: white;
     height: 100%;
     padding: 30px; }
   .topBar .topBarContact {
     float: left;
-    width: 350px;
+    width: 210px;
     border: 1px solid red;
-    background-color: white; }
+    background-color: white;
+    margin-right: 60px; }
   .topBar .iconCont {
     float: left;
     padding: 11px 0;
@@ -6425,7 +6423,7 @@ body {
     text-align: center; }
   .topBar .textCont {
     float: left;
-    width: 250px;
+    width: 150px;
     font-size: 1.2rem;
     margin-left: 10px;
     color: #0c740c;
@@ -6550,6 +6548,39 @@ body {
     height: 800px;
     color: black;
     font-size: 2rem; }
+  .sectionN1 .upperCont {
+    color: #0cc20c;
+    background-color: white;
+    padding: 10px;
+    text-align: left;
+    height: 100px; }
+    .sectionN1 .upperCont .testeImage {
+      float: left;
+      height: 70px;
+      width: 70px;
+      margin-right: 30px;
+      border-radius: 50%;
+      background-image: url(../assets/img/pexels-photo-1036622.jpeg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .sectionN1 .upperCont .testeName {
+      margin-top: 40px;
+      float: left;
+      color: gray; }
+  .sectionN1 .lowerCont {
+    position: relative;
+    padding: 40px;
+    color: white;
+    background-color: #0cc20c; }
+    .sectionN1 .lowerCont .icon {
+      position: absolute;
+      color: white;
+      right: 30px;
+      font-size: 6rem; }
+  .sectionN1 .iconArrow {
+    font-size: 5rem;
+    color: #0cc20c; }
 
 .sectionN2 .imageCont {
   background-color: white;
@@ -6573,13 +6604,13 @@ body {
   border: 1px solid blue;
   transition: all 0.3s; }
   .sectionN2 .news .authors {
-    margin-top: 60px;
+    margin-top: 20px;
     margin-right: 10px;
     padding-right: 10px;
     display: inline-block;
     border-right: 1px solid black; }
   .sectionN2 .news .time {
-    margin-top: 60px;
+    margin-top: 20px;
     display: inline-block; }
 
 .sectionN2 .image {
@@ -6679,6 +6710,11 @@ body {
 
 .sectionN3 .middleCol {
   color: white; }
+
+.sectionN3 .rightCol {
+  color: blue;
+  height: 500px;
+  padding: 0; }
 
 .footer ul {
   background-color: yellowgreen;

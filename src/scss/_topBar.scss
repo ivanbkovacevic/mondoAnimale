@@ -1,26 +1,24 @@
 .topBar{
-    background-color: rgb(184, 159, 159);
-    border:1px solid blue;
+    background-color: white;
     height: 110px;
 
     .logo{
         background-color: rgb(187, 176, 176);
-        border:1px solid red;
         height: 100%;
     }
 
     .contactsContainer{
-        background-color: rgb(247, 199, 199);
-        border:1px solid yellow;
+        background-color: white;
         height: 100%;
         padding: 30px;
     }
 
     .topBarContact{
         float: left;
-        width: 350px;
+        width: 210px;
         border: 1px solid red;
         background-color: white;
+        margin-right: 60px;
     }
 
     .iconCont{
@@ -35,7 +33,7 @@
     }
     .textCont{
         float: left;
-        width: 250px;
+        width: 150px;
         font-size: 1.2rem;
         margin-left: 10px;
         color:$color-green-dark;

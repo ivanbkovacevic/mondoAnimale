@@ -1,4 +1,5 @@
 .sectionN3{
+
     .leftCol{
         background-color: $color-blue-dark;
         color:white;
@@ -33,13 +34,17 @@
             i{
                 margin-right: 10px;
             }
-         
-
         }
         }
 
     .middleCol{
      color:white;
    }
+
+   .rightCol{
+    color:blue;
+    height: 500px;
+    padding: 0;
+  }
 
 }
