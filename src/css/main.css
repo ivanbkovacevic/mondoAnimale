@@ -6347,6 +6347,56 @@ body {
 
 /* 
 ////////////////PRE SET/////////////////////////// */
+.myButton {
+  position: relative;
+  background-color: #0cc20c;
+  border: none;
+  border-bottom: 3px solid #0c740c;
+  width: 150px;
+  height: 50px;
+  font-size: 1.6rem;
+  color: white;
+  outline: none;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 0%; }
+
+.bckgColIn {
+  animation: bckgColIn 0.8s ease-in-out forwards; }
+
+.bckgColOut {
+  animation: bckgColOut 0.8s ease-in-out forwards; }
+
+@keyframes bckgColIn {
+  0% {
+    background-size: 0%; }
+  100% {
+    background-size: 100%;
+    background-image: radial-gradient(#7676e9, #1699c4);
+    background-color: none; } }
+
+@keyframes bckgColOut {
+  0% {
+    background-size: 100%;
+    background-image: radial-gradient(#7676e9, #1699c4);
+    background-color: none; }
+  100% {
+    background-size: 0%;
+    background-color: #0cc20c; } }
+
+.myButton2 {
+  position: relative;
+  background-color: #0cc20c;
+  border: none;
+  width: 100px;
+  height: 30px;
+  font-size: 1.2rem;
+  color: white;
+  outline: none;
+  transition: all 0.3s; }
+  .myButton2:hover {
+    background-color: #309de6; }
+
 .topBar {
   background-color: #b89f9f;
   border: 1px solid blue;
@@ -6433,26 +6483,65 @@ body {
     margin-top: 100px;
     text-transform: uppercase; }
 
-.radnoVreme {
-  background-color: #e65a30;
-  height: 95vh;
+.sectionN {
+  height: 700px; }
+  .sectionN .leftCont {
+    height: 100%;
+    color: white; }
+  .sectionN .rightCont {
+    min-height: 700px;
+    background-color: white;
+    color: black;
+    text-align: left;
+    padding-top: 110px;
+    padding-left: 140px;
+    padding-right: 140px; }
+    .sectionN .rightCont p:nth-of-type(1) {
+      color: #0cc20c;
+      font-size: 1.8rem; }
+    .sectionN .rightCont p:nth-of-type(2) {
+      font-size: 2.2rem; }
+    .sectionN .rightCont p:nth-of-type(3) {
+      font-size: 2rem; }
+    .sectionN .rightCont h1 {
+      color: black;
+      font-size: 4.2rem;
+      font-weight: bold;
+      margin-bottom: 30px; }
+  .sectionN .desc {
+    float: left;
+    text-align: center;
+    height: 350px;
+    width: 50%;
+    background-color: #0c740c;
+    padding: 80px 60px;
+    border: 1px solid white; }
+    .sectionN .desc h3 {
+      margin-bottom: 30px; }
+    .sectionN .desc .iconice {
+      font-size: 3rem;
+      margin-bottom: 30px; }
+  .sectionN button {
+    margin-bottom: 50px; }
+
+.sectionN1 {
+  height: 800px;
   color: white;
   width: 100%;
   text-align: center; }
-  .radnoVreme h1 {
+  .sectionN1 h1 {
     font-size: calc(14px + (65 - 14) * ((100vw - 300px) / (1600 - 300))); }
-  .radnoVreme .header {
+  .sectionN1 .header {
     background-color: #d4d1d1;
     color: black;
     font-size: 1.8rem;
     margin-bottom: 50px; }
-  .radnoVreme .colBody {
-    background-color: black;
+  .sectionN1 .colBody {
     height: 800px;
-    color: white;
+    color: black;
     padding-top: 100px;
     font-size: 2rem; }
-  .radnoVreme .imageCont {
+  .sectionN1 .imageCont {
     background-image: url(../assets/img/cat1.jpeg);
     background-position: center;
     background-repeat: no-repeat;
@@ -6462,60 +6551,61 @@ body {
     color: black;
     font-size: 2rem; }
 
-.zaposleni {
-  background-color: #0cc20c;
-  height: 95vh;
-  color: #803535;
+.sectionN2 .imageCont {
+  background-color: white;
+  height: 300px;
+  color: black;
   width: 100%;
-  text-align: center;
-  padding-top: 100px; }
-  .zaposleni [data-scroll] {
-    transition: all 1.7s; }
-  .zaposleni [data-scroll="in"] {
-    opacity: 1;
-    transform: translateX(0); }
-  .zaposleni [data-scroll="out"] {
-    opacity: 0;
-    transform: translateX(-500px); }
-  .zaposleni h1 {
-    font-size: calc(14px + (65 - 14) * ((100vw - 300px) / (1600 - 300)));
-    color: #803535; }
-  .zaposleni .row {
-    color: black; }
-  .zaposleni .card-img-top {
-    height: 300px;
-    width: 100%; }
-    .zaposleni .card-img-top-1 {
-      background-image: url(../assets/img/pexels-photo-220453.jpeg);
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .zaposleni .card-img-top-2 {
-      background-image: url(../assets/img/pexels-photo-1036622.jpeg);
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .zaposleni .card-img-top-3 {
-      background-image: url(../assets/img/pexels-photo-355164.jpeg);
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .zaposleni .card-img-top-4 {
-      background-image: url(../assets/img/pexels-photo-769772.jpeg);
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover; }
+  text-align: center; }
 
-section:nth-of-type(4) [data-scroll] {
-  transition: all 1.7s; }
+.sectionN2 h1 {
+  margin-top: 14px;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  font-weight: bold; }
 
-section:nth-of-type(4) [data-scroll="in"] {
-  opacity: 1;
-  transform: translateX(0); }
+.sectionN2 .news {
+  background-color: #f8f6f6;
+  padding: 30px 30px;
+  height: 350px;
+  width: 100%;
+  font-size: 1.5rem;
+  border: 1px solid blue;
+  transition: all 0.3s; }
+  .sectionN2 .news .authors {
+    margin-top: 60px;
+    margin-right: 10px;
+    padding-right: 10px;
+    display: inline-block;
+    border-right: 1px solid black; }
+  .sectionN2 .news .time {
+    margin-top: 60px;
+    display: inline-block; }
 
-section:nth-of-type(4) [data-scroll="out"] {
-  opacity: 0;
-  transform: translateX(-500px); }
+.sectionN2 .image {
+  height: 350px;
+  width: 100%;
+  border: 1px solid red; }
+  .sectionN2 .image-1 {
+    background-image: url(../assets/img/usluge.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .sectionN2 .image-2 {
+    background-image: url(../assets/img/usluge2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .sectionN2 .image-3 {
+    background-image: url(../assets/img/usluge3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .sectionN2 .image-4 {
+    background-image: url(../assets/img/usluge3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
 
 .usluge {
   background-color: white;
@@ -6563,41 +6653,32 @@ section:nth-of-type(4) [data-scroll="out"] {
       background-color: #0b8888;
       color: white; }
 
-.kontakt {
-  background-color: #e65a30;
-  height: 95vh;
+.sectionN3 .leftCol {
+  background-color: #1976b4;
   color: white;
-  width: 100%;
-  text-align: center;
-  padding-top: 100px;
-  box-sizing: border-box; }
-  .kontakt [data-scroll] {
-    transition: all 1.7s; }
-  .kontakt [data-scroll="in"] {
-    opacity: 1;
-    transform: translateX(0);
-    width: 50%;
-    background-color: #e65a30; }
-  .kontakt [data-scroll="out"] {
-    opacity: 0;
-    transform: translateX(-500px);
-    width: 100%;
-    background-color: blue; }
-  .kontakt h1 {
-    font-size: calc(14px + (65 - 14) * ((100vw - 300px) / (1600 - 300))); }
-  .kontakt .col-lg-3 {
-    padding: 30px; }
-  .kontakt .image {
-    margin: 0 auto;
-    height: 70%;
-    background-image: url(../assets/img/adresa.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain; }
-  .kontakt .iconice {
-    font-size: 4rem; }
-  .kontakt p {
+  height: 500px;
+  padding: 50px; }
+  .sectionN3 .leftCol .logo {
+    font-size: 3rem; }
+
+.sectionN3 .middleCol {
+  padding: 30px;
+  color: white;
+  background-color: #1976b4; }
+  .sectionN3 .middleCol h1 {
+    margin-bottom: 50px; }
+  .sectionN3 .middleCol .iconAndTextCont .iconice {
     font-size: 2rem; }
+  .sectionN3 .middleCol .iconAndTextCont i, .sectionN3 .middleCol .iconAndTextCont p {
+    display: inline-block;
+    margin: 10px; }
+  .sectionN3 .middleCol .iconsCont {
+    font-size: 2rem; }
+    .sectionN3 .middleCol .iconsCont i {
+      margin-right: 10px; }
+
+.sectionN3 .middleCol {
+  color: white; }
 
 .footer ul {
   background-color: yellowgreen;

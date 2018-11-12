@@ -1,0 +1,70 @@
+.sectionN2{
+    .imageCont{
+        background-color: white;
+        height: 300px;
+        color:black;
+        width: 100%;
+        text-align: center;
+    }
+
+    h1{
+        margin-top: 14px;
+        margin-bottom: 20px;
+        font-size: 2.5rem;
+        font-weight: bold;
+     }
+
+     .news{
+        background-color: rgb(248, 246, 246);
+        padding: 30px 30px;
+        height: 350px;
+        width: 100%;
+        font-size: 1.5rem;
+        border: 1px solid blue;
+        transition: all 0.3s;  
+
+        .authors{
+            margin-top: 60px;
+            margin-right: 10px;
+            padding-right: 10px;
+            display: inline-block;
+            border-right: 1px solid black;
+        }
+        .time{
+            margin-top: 60px;
+            display: inline-block;
+        }
+    }
+ 
+     .image{
+         height: 350px;
+         width: 100%;
+         border: 1px solid red;
+      
+ 
+         &-1{
+             background-image: url(../assets/img/usluge.jpeg);
+             background-position: center;
+             background-repeat: no-repeat;
+             background-size: cover;
+         }
+         &-2{
+             background-image: url(../assets/img/usluge2.jpg);
+             background-position: center;
+             background-repeat: no-repeat;
+             background-size: cover;
+         }
+         &-3{
+             background-image: url(../assets/img/usluge3.jpg);
+             background-position: center;
+             background-repeat: no-repeat;
+             background-size: cover;
+         }
+         &-4{
+             background-image: url(../assets/img/usluge3.jpg);
+             background-position: center;
+             background-repeat: no-repeat;
+             background-size: cover;
+         }
+     }
+}

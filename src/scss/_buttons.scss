@@ -1,0 +1,60 @@
+.myButton{
+    position: relative;
+    background-color: $color-green;
+    border: none;
+    border-bottom: 3px solid $color-green-dark;
+    width: 150px;
+    height: 50px;
+    font-size: 1.6rem;
+    color:white;
+    outline: none;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 0%;
+}
+
+
+.bckgColIn{
+    animation: bckgColIn 0.8s ease-in-out forwards;
+}
+.bckgColOut{
+    animation: bckgColOut 0.8s ease-in-out forwards;
+}
+
+@keyframes bckgColIn{
+    0%{
+        background-size: 0%;
+    }
+    100%{
+        background-size: 100%;
+        background-image:radial-gradient(rgb(118, 118, 233),rgb(22, 153, 196));
+        background-color: none;
+    }
+}
+@keyframes bckgColOut{
+    0%{
+        background-size: 100%;
+        background-image:radial-gradient(rgb(118, 118, 233),rgb(22, 153, 196));
+        background-color: none;
+    }
+    100%{
+        background-size: 0%;
+        background-color: $color-green;
+    }
+}
+
+
+.myButton2{
+    position: relative;
+    background-color: $color-green;
+    border: none;
+    width: 100px;
+    height: 30px;
+    font-size: 1.2rem;
+    color:white;
+    outline: none;
+    transition: all 0.3s;
+    &:hover{
+        background-color: $color-blue;
+    }
+}
