@@ -6347,9 +6347,51 @@ body {
 
 /* 
 ////////////////PRE SET/////////////////////////// */
+.topBar {
+  background-color: #b89f9f;
+  border: 1px solid blue;
+  height: 110px; }
+  .topBar .logo {
+    background-color: #bbb0b0;
+    border: 1px solid red;
+    height: 100%; }
+  .topBar .contactsContainer {
+    background-color: #f7c7c7;
+    border: 1px solid yellow;
+    height: 100%;
+    padding: 30px; }
+  .topBar .topBarContact {
+    float: left;
+    width: 350px;
+    border: 1px solid red;
+    background-color: white; }
+  .topBar .iconCont {
+    float: left;
+    padding: 11px 0;
+    background-color: #bbb5b5;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center; }
+  .topBar .textCont {
+    float: left;
+    width: 250px;
+    font-size: 1.2rem;
+    margin-left: 10px;
+    color: #0c740c;
+    background-color: white; }
+  .topBar .iconice {
+    font-size: 1.5rem; }
+  .topBar p {
+    margin: 0; }
+
 .navbar {
   background-color: #0cc20c;
   padding: 0; }
+  .navbar-brand {
+    background-color: #0cc20c;
+    color: #0cc20c;
+    width: 200px; }
   .navbar .navbar-expand-sm {
     padding: 0; }
   .navbar ul {
@@ -6370,27 +6412,25 @@ body {
 
 .heroHeader {
   position: relative;
-  background-color: #309de6;
-  height: 95vh;
-  color: white;
-  width: 100%;
-  text-align: center;
-  padding-top: 60px;
-  background-image: url(../assets/img/dogs.jpeg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
+  background-color: white;
+  height: 700px;
+  color: darkgrey;
+  width: 100%; }
   .heroHeader h1 {
     font-size: calc(14px + (85 - 14) * ((100vw - 300px) / (1600 - 300))); }
+  .heroHeader .heroImage {
+    height: 700px;
+    background-image: url(../assets/img/dogs.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
   .heroHeader .heroText {
-    position: absolute;
-    color: white;
-    top: 30%;
-    left: 10%;
+    color: darkgrey;
     text-align: left;
-    border: 1px solid white;
+    border: 1px solid black;
     font-size: 4rem;
     padding: 20px;
+    margin-top: 100px;
     text-transform: uppercase; }
 
 .radnoVreme {
@@ -6478,26 +6518,50 @@ section:nth-of-type(4) [data-scroll="out"] {
   transform: translateX(-500px); }
 
 .usluge {
-  background-color: #f5f10d;
-  height: 95vh;
+  background-color: white;
+  height: 600px;
   color: black;
   width: 100%;
-  text-align: center;
-  padding-top: 100px; }
+  text-align: center; }
   .usluge h1 {
     font-size: calc(14px + (65 - 14) * ((100vw - 300px) / (1600 - 300))); }
-  .usluge .imageSlide {
-    margin: 0 auto;
-    height: 500px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain; }
-    .usluge .imageSlide-1 {
-      background-image: url(../assets/img/usluge.jpeg); }
-    .usluge .imageSlide-2 {
-      background-image: url(../assets/img/usluge2.jpg); }
-    .usluge .imageSlide-3 {
-      background-image: url(../assets/img/usluge3.jpg); }
+  .usluge .image {
+    height: 350px;
+    width: 100%;
+    border: 1px solid red; }
+    .usluge .image .iconice {
+      margin: 100px  auto;
+      font-size: 3rem;
+      color: white; }
+    .usluge .image-1 {
+      background-image: url(../assets/img/usluge.jpeg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .usluge .image-2 {
+      background-image: url(../assets/img/usluge2.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .usluge .image-3 {
+      background-image: url(../assets/img/usluge3.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .usluge .image-4 {
+      background-image: url(../assets/img/usluge3.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+  .usluge .usluga {
+    padding: 30px 20px;
+    height: 250px;
+    width: 100%;
+    border: 1px solid blue;
+    transition: all 0.3s; }
+    .usluge .usluga:hover {
+      background-color: #0b8888;
+      color: white; }
 
 .kontakt {
   background-color: #e65a30;

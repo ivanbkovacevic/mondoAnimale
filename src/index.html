@@ -1,234 +1,295 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
-    <head>
-        <title>MondoAnimale</title>
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-	    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   
-      <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:300,400,700" rel="stylesheet">
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-        <link rel="stylesheet" href="/css/bootstrap.css">
-        <link rel="stylesheet" href="/css/main.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
-    </head>
-<body><!--start  NAVBAR ######################################-->
-      <nav class="navbar navbar-expand-sm fixed-top ">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto text-white">
-              <li class="nav-item active">
-                <a class="nav-link" href="#heroHeader">HOME<span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#radnoVreme">RADNO VREME</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#zaposleni">ZAPOSLENI</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#usluge">USLUGE</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="#kontakt">KONTAKT</a>
-                    </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Dropdown
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-              </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
-          </div>
-        </nav>
-<!-- end  NAVBAR  ######################################-->
 
-<!-- start  heroHeader  ######################################-->
-        <section id="heroHeader" class="heroHeader">
-            <h1 id="tiha" class="">MONDssssO ANIMALE</h1> 
-            <h2>DOBRO DOSLI</h2>
-            <div class="heroText">
-              <p>Ambualtna najblolja</p>
-              <p>Volimo yivotinja</p>
-              <p>Lecimo ih</p>
-            </div>
-            <div class="logo"></div>
-        </section>
-<!-- end  heroHeader  ######################################-->
+<head>
+  <title>MondoAnimale</title>
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<!-- start  radnoVreme  ######################################-->
-         <section id="radnoVreme" class="radnoVreme">
-         
-         <div  class="row no-gutters">
-            <div class="col-lg-6">
-                <div class="colBody">
-                    <div class="header">RADNO VREME</div>
-                    <p>PONEDLJAK - PETAK</p>
-                    <p>Od 08:00h do 20:00h</p>
-                    <p id="burek" class="">VIKENDOM</p>
-                    <p data-scroll class="pulse infinite">Od 10:00h do 14:00h</p>
-                </div>
-               
-            </div>    
-             
-            <div class="col-lg-6">
-                <div class="imageCont"></div>
-            </div>
-          </div>     
-        </section>
-<!-- end  radnoVreme  ######################################-->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:300,400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/bootstrap.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
+</head>
 
-<!-- start  zaposleni  ######################################-->
-        <section  id="zaposleni" class="zaposleni" >
-            <h1  data-scroll >ZAPOSLENI</h1> 
-            <div  class="row" data-scroll>
-              <div class="col-lg-3 bg-primary d-flex justify-content-center">
-                  <div class="card" style="width: 24rem;">
-                      <div class="card-img-top card-img-top-1" ></div>
-                      <div class="card-body">
-                        <h5 class="card-title">dr Pera Peric</h5>
-                        <p class="card-text">Pera Peric je veterinar i voli zivotinje</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                      </div>
-                    </div>
-              </div>
-              <div class="col-lg-3 bg-primary d-flex justify-content-center">
-                  <div class="card" style="width: 24rem;">
-                      <div class="card-img-top card-img-top-2" ></div>
-                      <div class="card-body">
-                        <h5 class="card-title">dr Pera Peric</h5>
-                        <p class="card-text">Pera Peric je veterinar i voli zivotinje</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                      </div>
-                    </div>
-              </div>
-              <div class="col-lg-3 bg-primary d-flex justify-content-center">
-                  <div class="card" style="width: 24rem;">
-                      <div class="card-img-top card-img-top-3" ></div>
-                      <div class="card-body">
-                        <h5 class="card-title">dr Pera Peric</h5>
-                        <p class="card-text">Pera Peric je veterinar i voli zivotinje</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                      </div>
-                    </div>
-              </div>
-              <div class="col-lg-3 bg-primary d-flex justify-content-center">
-                  <div class="card" style="width: 24rem;">
-                      <div class="card-img-top card-img-top-4"></div>
-                      <div class="card-body">
-                        <h5 class="card-title">dr Pera Peric</h5>
-                        <p class="card-text">Pera Peric je veterinar i voli zivotinje</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                      </div>
-                    </div>
-              </div>
-            </div>
-        </section>
-<!-- end  zaposleni  ######################################-->
+<body>
+  <!--START  TOPBAR ######################################-->
+  <div class="row no-gutters topBar">
+    <div class="col-lg-2 logo">
 
-<!-- start  usluge  ######################################-->
-        <section  id="usluge" class="usluge" data-scroll>
-            <h1  data-scroll class="pulse infinite">USLUGE</h1> 
-            <div id="carouselExampleIndicators" class="carousel slide" data-interval="1500" data-ride="carousel">
-                <ol class="carousel-indicators">
-                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner ">
-                  <div class="carousel-item active">
-                    <div class="imageSlide imageSlide-1"></div>
-                  </div>
-                  <div class="carousel-item">
-                      <div class="imageSlide imageSlide-2"></div>
-                  </div>
-                  <div class="carousel-item">
-                      <div class="imageSlide imageSlide-3"></div>
-                  </div>
-                </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
-              </div>
-        </section>
-<!-- end  usluge  ######################################-->
-
-<!-- start  kontakt  ######################################-->
-<div>
-  
-  <section  id="kontakt" class="kontakt" >
-      <h1  >KONTAKT</h1> 
-      <div   class="image"></div>
-      <div  class="row" >
-        <div class="col-lg-3 bg-primary">
-            <i class="iconice far fa-envelope-open"></i>
-            <p>mondoanimale@gmail.com</p>
+    </div>
+    <div class="col-lg-10 contactsContainer">
+      <div class="topBarContact">
+        <div class="iconCont">
+          <i class="iconice fas fa-phone"></i>
         </div>
-        <div class="col-lg-3 bg-warning">
-            <i class="iconice fas fa-phone"></i>
-            <p>+381 64 555-555</p>
+        <div class="textCont">
+          <p>381 64 555 555</p>
+          <p>013/2514-1414</p>
+        </div>
 
+      </div>
+      <div class="radnovreme topBarContact">
+        <div class="iconCont">
+          <i class="iconice fas fa-phone"></i>
         </div>
-        <div  class="jello col-lg-3 bg-primary">
-            <i class="iconice fab fa-facebook"></i>
-            <p>facebook-mondoanimale</p>
-        </div>
-        <div data-scroll class="col-lg-3 bg-warning">
-            <i class="iconice fas fa-home"></i>
-            <p>Oslobodjenja 100</p>
+        <div class="textCont">
+          <p>Pon-Pet 10:00h-20:00h</p>
+          <p>Sub 10:00h-14:00h</p>
         </div>
       </div>
-     
-  </section>
-</div>
-<!-- end  kontakt  ######################################-->
+      <div class="adress topBarContact">
+        <div class="iconCont">
+          <i class="iconice fas fa-phone"></i>
+        </div>
+        <div class="textCont">
+          <p>22222</p>
+          <p>333333</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--END TOPBAR ######################################-->
+  <!--start  NAVBAR ######################################-->
+  <nav class="navbar navbar-expand-sm sticky-top ">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-<!-- start  footer  ######################################-->
-<footer   class="footer">
-   <ul>
-     <li><a href="#">Home</a></li>
-     <li><a href="#">Zaposleni</a></li>
-     <li><a href="#">Usluge</a></li>
-     <li><a href="#">Radno vreme</a></li>
-     <li><a href="#">Kontkt</a></li>
-   </ul>
-</footer>
-<!-- end  footer  ######################################-->
-    
-        <script src="/js/jquery.min.js"></script>
-        <script src="/js/popper.min.js"></script>
-        <script src="/js/bootstrap.min.js"></script>
-        <script src="/js/animated.js"></script>
-        <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
-        <script>
-          
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto text-white">
+        <li class="nav-item active">
+          <a class="nav-link" href="#heroHeader">HOME<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#radnoVreme">RADNO VREME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#zaposleni">ZAPOSLENI</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#usluge">USLUGE</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#kontakt">KONTAKT</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Dropdown
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+  <!-- end  NAVBAR  ######################################-->
+
+
+
+  <!-- START  heroHeader  ######################################-->
+  <section id="heroHeader" class="heroHeader">
+    <div class="row no-gutters">
+      <div class="col-lg-8 heroImage">
+
+      </div>
+      <div class="col-lg-4">
+        <div class="heroText">
+          <p>Ambualtna najblolja</p>
+          <p>Volimo yivotinja</p>
+          <p>Lecimo ih</p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+  <!-- END  heroHeader  ######################################-->
+
+  <!-- START  USLUGE  ######################################-->
+  <section id="usluge" class="usluge">
+    <div class="row no-gutters">
+      <div class="col-lg-3">
+        <div class="image image-1">
+            <i class="iconice fas fa-phone"></i>
+        </div>
+        <div class="usluga usluga-1">
+         <h2>Usluga 1</h2>
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, temporibus.</p>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="usluga usluga-2">
+            <h2>Usluga 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, temporibus.</p>
+        </div>
+        <div class="image image-2"></div>
+      </div>
+      <div class="col-lg-3">
+        <div class="image image-3"></div>
+        <div class="usluga usluga-3">
+            <h2>Usluga 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, temporibus.</p>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="usluga usluga-4">
+            <h2>Usluga 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, temporibus.</p>
+        </div>
+        <div class="image image-4"></div>
+
+      </div>
+    </div>
+  </section>
+  <!-- END USLUGE  ######################################-->
+
+  <!-- start  radnoVreme  ######################################-->
+  <section id="radnoVreme" class="radnoVreme">
+
+    <div class="row no-gutters">
+      <div class="col-lg-6">
+        <div class="colBody">
+          <div class="header">RADNO VREME</div>
+          <p>PONEDLJAK - PETAK</p>
+          <p>Od 08:00h do 20:00h</p>
+          <p id="burek" class="">VIKENDOM</p>
+          <p data-scroll class="pulse infinite">Od 10:00h do 14:00h</p>
+        </div>
+
+      </div>
+
+      <div class="col-lg-6">
+        <div class="imageCont"></div>
+      </div>
+    </div>
+  </section>
+  <!-- end  radnoVreme  ######################################-->
+
+  <!-- start  zaposleni  ######################################-->
+  <section id="zaposleni" class="zaposleni">
+    <h1 data-scroll>ZAPOSLENI</h1>
+    <div class="row" data-scroll>
+      <div class="col-lg-3 bg-primary d-flex justify-content-center">
+        <div class="card" style="width: 24rem;">
+          <div class="card-img-top card-img-top-1"></div>
+          <div class="card-body">
+            <h5 class="card-title">dr Pera Peric</h5>
+            <p class="card-text">Pera Peric je veterinar i voli zivotinje</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 bg-primary d-flex justify-content-center">
+        <div class="card" style="width: 24rem;">
+          <div class="card-img-top card-img-top-2"></div>
+          <div class="card-body">
+            <h5 class="card-title">dr Pera Peric</h5>
+            <p class="card-text">Pera Peric je veterinar i voli zivotinje</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 bg-primary d-flex justify-content-center">
+        <div class="card" style="width: 24rem;">
+          <div class="card-img-top card-img-top-3"></div>
+          <div class="card-body">
+            <h5 class="card-title">dr Pera Peric</h5>
+            <p class="card-text">Pera Peric je veterinar i voli zivotinje</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 bg-primary d-flex justify-content-center">
+        <div class="card" style="width: 24rem;">
+          <div class="card-img-top card-img-top-4"></div>
+          <div class="card-body">
+            <h5 class="card-title">dr Pera Peric</h5>
+            <p class="card-text">Pera Peric je veterinar i voli zivotinje</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end  zaposleni  ######################################-->
+
+
+
+  <!-- start  kontakt  ######################################-->
+  <div>
+
+    <section id="kontakt" class="kontakt">
+      <h1>KONTAKT</h1>
+      <div class="image"></div>
+      <div class="row">
+        <div class="col-lg-3 bg-primary">
+          <i class="iconice far fa-envelope-open"></i>
+          <p>mondoanimale@gmail.com</p>
+        </div>
+        <div class="col-lg-3 bg-warning">
+          <i class="iconice fas fa-phone"></i>
+          <p>+381 64 555-555</p>
+
+        </div>
+        <div class="jello col-lg-3 bg-primary">
+          <i class="iconice fab fa-facebook"></i>
+          <p>facebook-mondoanimale</p>
+        </div>
+        <div data-scroll class="col-lg-3 bg-warning">
+          <i class="iconice fas fa-home"></i>
+          <p>Oslobodjenja 100</p>
+        </div>
+      </div>
+
+    </section>
+  </div>
+  <!-- end  kontakt  ######################################-->
+
+  <!-- start  footer  ######################################-->
+  <footer class="footer">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Zaposleni</a></li>
+      <li><a href="#">Usluge</a></li>
+      <li><a href="#">Radno vreme</a></li>
+      <li><a href="#">Kontkt</a></li>
+    </ul>
+  </footer>
+  <!-- end  footer  ######################################-->
+
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/popper.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+  <script src="/js/animated.js"></script>
+  <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
+  <script>
+
   //  ScrollOut({
   //       threshold: .5,
   //       once:true,
-      
+
   //       onShown(el) {
   //   el.classList.add("animated");
   // }
   //   });
-          </script>
-          
-    </body>
+  </script>
+
+</body>
+
 </html>

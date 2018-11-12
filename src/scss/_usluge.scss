@@ -1,29 +1,59 @@
 .usluge{
-    background-color: $color-yellow;
-    height: 95vh;
+    background-color: white;
+    height: 600px;
     color:black;
     width: 100%;
     text-align: center;
-    padding-top: 100px;
 
     h1{
        font-size: calc(14px + (65 - 14) * ((100vw - 300px) / (1600 - 300)));
     }
 
-    .imageSlide{
-        margin: 0 auto;
-        height: 500px;   
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: contain;
+    .image{
+        height: 350px;
+        width: 100%;
+        border: 1px solid red;
+        .iconice{
+            margin:100px  auto;
+            font-size: 3rem;
+            color:white;
+            
+        }
+
         &-1{
             background-image: url(../assets/img/usluge.jpeg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
         }
         &-2{
             background-image: url(../assets/img/usluge2.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
         }
         &-3{
             background-image: url(../assets/img/usluge3.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        &-4{
+            background-image: url(../assets/img/usluge3.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }
+    .usluga{
+        padding: 30px 20px;
+        height: 250px;
+        width: 100%;
+        border: 1px solid blue;
+        transition: all 0.3s;
+        &:hover{
+            background-color: rgb(11, 136, 136);
+            color:white;
         }
     }
 }

@@ -3,6 +3,12 @@
   
     background-color:$color-green;
     padding: 0;
+
+    &-brand{
+        background-color: $color-green;
+        color:$color-green;
+        width: 200px;
+    }
     .navbar-expand-sm{
         padding: 0;
        
