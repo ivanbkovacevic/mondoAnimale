@@ -1,0 +1,89 @@
+.ourTeam{
+    background-color: rgb(243, 242, 242);
+    height: 700px;
+    width: 100%;
+    padding: 70px 50px;
+
+    &-Top{
+        text-align: center;
+        p{
+            font-size: 2rem;
+            color:$color-green;
+        }
+        h1{
+            font-size: 5rem;
+            font-weight: bold;
+
+            &::after{
+                display: block;
+                content: "";
+                width: 50px;
+                height: 5px;
+                background-color: $color-green;
+                margin:15px auto;
+                margin-bottom: 30px;
+            }
+        }
+    }
+
+
+
+    .slide{
+        width: 100%;
+        background-color: red;
+        height: 350px;
+        color:white;
+        margin-right: 10px;
+
+        &-left{
+           float: left;
+            border: 1px solid blue;
+            height: 350px;
+            width: 45%;
+            background-image: url(../assets/img/pexels-photo-1036622.jpeg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+           
+        }
+        &-right{
+            float: left;
+            border: 1px solid blue;
+            height: 350px;
+            width: 55%;
+            background-color: white;
+            padding: 20px;
+
+            p{
+                font-size: 2rem;
+                color:gray;
+            }
+
+            p:nth-of-type(4){
+                display:inline-block;
+            }
+
+            .iconCont{
+                display:inline-block;
+                padding: 11px 0;
+                background-color: rgb(187, 181, 181);
+                border-radius: 50%;
+                width: 40px;
+                height: 40px;
+                text-align: center;
+
+                .iconice{
+                    font-size: 1.5rem;
+                    color:$color-green-dark;
+                  }
+            }
+
+          
+        }
+    }
+
+    .iconArrow{
+        font-size: 5rem;
+        color:$color-green;
+    }
+}

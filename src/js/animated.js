@@ -9,8 +9,7 @@ $(document).ready(function(){
 
     ScrollOut({
         threshold: .5,
-        once:true,
-      
+        once:true,    
         onShown(el) {
     el.classList.add("animated");
   }

@@ -13,11 +13,26 @@
         height: 350px;
         width: 100%;
         border: 1px solid red;
+
+        &:hover .iconice{
+            transform: rotate(0deg);
+            opacity: 1;    
+        }
+
+        a{
+            &:hover .iconice{
+                background-color: $color-green;
+            }
+        }
+
         .iconice{
-            margin:100px  auto;
-            font-size: 3rem;
+            margin:150px  auto;
+            font-size: 5rem;
             color:white;
-            
+            border-radius: 50%;
+            transition: all 0.3s;
+            transform: rotate(-30deg);
+            opacity: 0;
         }
 
         &-1{

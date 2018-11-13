@@ -1,18 +1,23 @@
 .sectionN3{
-
+    height: 408px;
+   .row{
+       height: 100%;
+   }
     .leftCol{
         background-color: $color-blue-dark;
         color:white;
-        height: 500px;
-        padding: 50px;
+        height: 100%;
+        padding: 100px;
 
         .logo{
-            font-size: 3rem;
+            font-size: 5rem;
+            font-weight: bold;
         }
     }
 
     .middleCol{
-        padding: 30px;
+        height: 100%;
+        padding: 100px;
         h1{
             margin-bottom: 50px;
         }
@@ -37,13 +42,11 @@
         }
         }
 
-    .middleCol{
-     color:white;
-   }
+ 
 
    .rightCol{
     color:blue;
-    height: 500px;
+    height: 400px;
     padding: 0;
   }
 

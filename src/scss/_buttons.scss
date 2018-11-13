@@ -15,10 +15,10 @@
 
 
 .bckgColIn{
-    animation: bckgColIn 0.8s ease-in-out forwards;
+    animation: bckgColIn 0.5s linear forwards;
 }
 .bckgColOut{
-    animation: bckgColOut 0.8s ease-in-out forwards;
+    animation: bckgColOut 0.5s linear forwards;
 }
 
 @keyframes bckgColIn{
