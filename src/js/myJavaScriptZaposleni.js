@@ -27,7 +27,7 @@ $(document).ready(function(){
 window.addEventListener('load', function(){
     new Glider(document.querySelector('.glider'), {
         slidesToShow: 2,
-        dots: '#dots',
+        dots: '.dots',
         arrows: {
           prev: '.glider-prev',
           next: '.glider-next'
