@@ -1,0 +1,111 @@
+.testemonials{
+    background-color: $color-green;
+    height: 700px;
+    width: 100%;
+    padding: 70px 50px;
+
+    &-Top{
+        text-align: center;
+        p{
+            font-size: 2rem;
+            color:rgb(206, 206, 206);
+        }
+        h1{
+            font-size: 5rem;
+            font-weight: bold;
+            color:white;
+
+        }
+    }
+
+    .slide{
+        width: 100%;
+        background-color: $color-green;
+        height: 200px;
+        color:white;
+        margin-right: 10px;
+        padding-top: 60px;
+        padding-bottom: 100px;
+
+        &-left{
+            float: left;
+            height: 200px;
+            width: 20%;
+            padding: 20px;
+            text-align: center;
+
+            p{
+              margin-bottom: 3px;
+              font-size: 1.5rem;
+
+                &:first-of-type{
+                    color:blue;
+                }
+            }
+
+           
+            .image{
+                width: 100px;
+                border-radius: 50%;
+                margin-bottom: 25px;
+               
+               
+                &-1{
+                    height: 100px;
+                    background-image: url(../assets/img/pexels-photo-1036622.jpeg);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+            }
+           
+        }
+        &-right{
+
+            i{
+                display: block;
+                color:blue;
+                font-size: 4rem;
+            }
+
+            float: left;
+            height: 200px;
+            width: 80%;
+            padding: 0 20px 0 0;
+
+
+            p{
+                font-size: 1.8rem;
+                color:white;
+                margin-left: 10px;
+            }
+
+            p:nth-of-type(4){
+                display:inline-block;
+            }
+
+            .iconCont{
+                display:inline-block;
+                padding: 11px 0;
+                background-color: rgb(187, 181, 181);
+                border-radius: 50%;
+                width: 40px;
+                height: 40px;
+                text-align: center;
+
+                .iconice{
+                    font-size: 1.5rem;
+                    color:$color-green-dark;
+                  }
+            }
+
+          
+        }
+    }
+
+    .iconArrow{
+        font-size: 5rem;
+        color:$color-green;
+    }
+    
+}

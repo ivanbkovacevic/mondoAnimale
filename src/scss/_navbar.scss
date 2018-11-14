@@ -22,18 +22,18 @@
             padding: 5px;
             height: 50px;
             background-color:$color-green;
+
             &:hover{
                 background-color:$color-green-dark; 
             }
+
             .nav-link{
                 height: 100%;
                 color:white;
                 padding: 10px 30px;
                 font-size: 1.5rem;
 
-                &:active:before{
-                    width: 100%;
-                }
+             
 
                 &::before{
                     display: block;
@@ -44,21 +44,16 @@
                     height: 4px;
                     background-color: white;
                     transition: all 0.4s;
+    
                 }
-
                 &:hover:before{
                     width: 100%;
                 }
 
-             
+        
             
             }
 
         }
-          
-          
-
-    button{
-        padding: 0;
-    }
+        
 }
