@@ -51,3 +51,48 @@
   }
 
 }
+
+.testing{
+  background-color: blueviolet;
+  height: 400px;
+  padding: 100px;
+  margin-bottom: 200px;
+
+  .divtest1{
+      color: white;
+      width: 30%;
+      background-color: yellowgreen;
+      font-size: 1rem;
+      
+  }
+
+  .active1{
+    font-size: 3rem;
+   }
+
+  .divtest2{
+      color: black;
+      width: 30%;
+      background-color: orange;
+
+      &-active{
+        background-color: blue;
+      }
+  }
+
+}
+
+.testing1{
+    height: 900px;
+    background-color: aqua;
+    .divtest3{
+        height: 900px;
+       
+        background-color: blue;
+    }
+    .active{git add
+        font-size: 5rem;
+        background-color: red;
+       
+       }
+}

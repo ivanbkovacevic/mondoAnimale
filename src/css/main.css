@@ -6740,6 +6740,35 @@ body {
     height: 400px;
     padding: 0; }
 
+.testing {
+  background-color: blueviolet;
+  height: 400px;
+  padding: 100px;
+  margin-bottom: 200px; }
+  .testing .divtest1 {
+    color: white;
+    width: 30%;
+    background-color: yellowgreen;
+    font-size: 1rem; }
+  .testing .active1 {
+    font-size: 3rem; }
+  .testing .divtest2 {
+    color: black;
+    width: 30%;
+    background-color: orange; }
+    .testing .divtest2-active {
+      background-color: blue; }
+
+.testing1 {
+  height: 900px;
+  background-color: aqua; }
+  .testing1 .divtest3 {
+    height: 900px;
+    background-color: blue; }
+  .testing1 .active {
+    font-size: 5rem;
+    background-color: red; }
+
 .footer ul {
   background-color: yellowgreen;
   height: 60px; }

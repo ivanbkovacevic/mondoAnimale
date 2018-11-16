@@ -20,7 +20,12 @@ $(document).ready(function(){
         $(this).addClass("bckgColOut");
     })
 
-
+ScrollOut({
+    threshold:0.5,
+    onShown(el) {
+      el.classList.add("active");
+    }
+  });
 
 })
 
@@ -42,5 +47,7 @@ window.addEventListener('load', function(){
           next: '.glider-next'
         }
       });
+
+
 
   })
